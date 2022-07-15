@@ -1,0 +1,129 @@
+
+
+h1{
+	text-align: center;
+	margin: 40px;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+p{
+	width: 150px;
+	height: 33px;
+	border: 1px solid black;
+	float: right;
+	text-align: center;
+	font-size: 25px;
+	margin: 0px
+
+}
+
+div{
+
+	height: 220px;
+	width: 485px;
+	border: 1px solid black;
+	float: left;
+	margin : 10px;
+	overflow: auto;
+}
+
+div#container1{
+	background-color: gray;
+}
+
+div#container2{
+	background-color: gray;
+
+}
+
+div#container3{
+	background-color: gray;
+}
+
+#P1{
+	background-color: #ff9a8a;
+	
+}
+
+#P2{
+	background-color: #A52A2A;
+	color: white;
+}
+#P3{
+	background-color: #DEB887;
+}
+
+section{
+	clear: right;
+	font-size: 25px;
+	margin: 10px;
+
+}
+/* for large divices only */
+@media(min-width: 992px){
+	.container1 , .container2 , .container3{
+		float: left;
+	}
+	
+	.container1{
+		width: 31%;
+	}
+
+	.container2{
+		width: 31%;
+	}
+
+	.container3{
+		width: 31%;
+	}
+}
+/* for medium divices only */
+@media(min-width: 768px)and(max-width: 991px){
+
+	.container1 , .container2 , .container3{
+		float: left;
+
+	}
+	
+	.container1{
+		width: 46%;
+		}
+
+	.container2{
+		width: 46%;
+		
+	}
+
+	.container3{
+		width: 96%;
+	}
+	<br>
+}
+
+/* for small divices only */
+@media(max-width: 767px){
+
+	.container1 , .container2 , .container3{
+		float: left;
+	}
+	
+	.container1{
+		width: 96%;
+	}
+
+	.container2{
+		width: 96%;
+	}
+
+	.container3{
+		width: 96%;
+	}
+}
+
+
+
+
